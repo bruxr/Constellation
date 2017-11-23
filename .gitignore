@@ -8,3 +8,5 @@ jspm_packages
 # Aws build
 awscli-bundle
 awscli-bundle.zip
+
+.DS_Store
