@@ -4,14 +4,18 @@
   "description": "",
   "main": "handler.js",
   "dependencies": {
-    "graphql": "^0.11.7"
+    "apollo-server-lambda": "^1.2.0",
+    "graphql": "^0.11.7",
+    "graphql-tools": "^2.8.0"
   },
   "devDependencies": {
     "eslint": "^4.11.0",
     "eslint-config-airbnb-base": "^12.1.0",
-    "eslint-plugin-import": "^2.8.0"
+    "eslint-plugin-import": "^2.8.0",
+    "serverless-offline": "^3.16.0"
   },
   "scripts": {
+    "server": "serverless offline start",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

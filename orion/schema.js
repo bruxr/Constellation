@@ -1,4 +1,4 @@
-export default `
+module.exports = `
 type Location {
   lat: Float
   long: Float
@@ -30,5 +30,9 @@ type Category {
   id: ID!
   name: String!
   color: String!
+}
+
+type Query {
+  wallets: [Wallet]
 }
 `;
