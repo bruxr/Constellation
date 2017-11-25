@@ -22,6 +22,7 @@ provider:
   runtime: nodejs6.10
 
 plugins:
+  - serverless-dynamodb-local
   - serverless-offline
 
 # you can overwrite defaults here
