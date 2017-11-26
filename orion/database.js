@@ -14,10 +14,7 @@ function promisify(foo) {
   });
 }
 
-module.exports.wallets = () => {
-  return promisify(callback => docClient.scan({
+module.exports.wallets = () =>
+  promisify(callback => docClient.scan({
     TableName: 'wallets',
-  }, callback)).then((result) => {
-    return result.Items;
-  });
-};
+  }, callback)).then(result => result.Items);
