@@ -1,0 +1,13 @@
+# package directories
+node_modules
+jspm_packages
+
+# Serverless directories
+.serverless
+
+# Aws build
+awscli-bundle
+awscli-bundle.zip
+
+.DS_Store
+
