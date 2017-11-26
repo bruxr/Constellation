@@ -129,3 +129,7 @@ resources:
           ReadCapacityUnits: 1
           WriteCapacityUnits: 1
         TableName: 'wallets'
+custom:
+  dynamodb:
+    start:
+      migrate: true
