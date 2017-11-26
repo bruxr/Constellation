@@ -11,7 +11,7 @@ enum TRANSACTION_TYPE {
 }
 
 type Transaction {
-  id: ID!
+  id: String!
   type: TRANSACTION_TYPE
   desc: String!
   created: Int!
@@ -21,13 +21,13 @@ type Transaction {
 }
 
 type Wallet {
-  id: ID!
+  id: String!
   name: String!
   balance: Int!
 }
 
 type Category {
-  id: ID!
+  id: String!
   name: String!
   color: String!
 }
