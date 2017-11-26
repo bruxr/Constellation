@@ -35,4 +35,8 @@ type Category {
 type Query {
   wallets: [Wallet]
 }
+
+type Mutation {
+  createWallet(name: String!, balance: Int!): Wallet
+}
 `;
